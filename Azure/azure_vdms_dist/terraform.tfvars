@@ -1,11 +1,11 @@
 fw_license   = "byol"                                                       # Uncomment 1 fw_license to select VM-Series licensing mode
 #fw_license   = "bundle1"
 #fw_license    = "bundle2"
-global_prefix = "vdms"
+global_prefix = "panos"
 
-location        = "eastus"        // commercial region  
-//location      = "usgovvirgina"  // uncomment to deploy into government region    
-//environment   = "usgovernment"  // uncomment to deploy into Azure Gov
+//location        = "eastus"        // commercial region  
+location      = "usgovvirgina"  // uncomment to deploy into government region    
+environment   = "usgovernment"  // uncomment to deploy into Azure Gov
 
 # -----------------------------------------------------------------------
 # VM-Series resource group variables
